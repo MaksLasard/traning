@@ -1,0 +1,308 @@
+/*Спецификации*/
+body {
+  font-family: Fire Sans, sans-serif;
+  background: #F4F4F4;
+  margin: 0;
+  padding: 0;
+}
+button {
+  width: 189px;
+  height: 50px;
+  background-color: #3726F2;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  color: #fff;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  color: #222;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  color: #222;
+}
+p {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.7;
+  line-height: 28px;
+  color: #222;
+}
+/*Первый экран сайта*/
+header {
+  background: #F4F4F4;
+}
+header .logo {
+  height: 20px;
+  width: 74px;
+}
+header .search {
+  height: 20px;
+  width: 20px;
+}
+header .menu {
+  height: 2px;
+  width: 34px;
+}
+header .nav {
+  padding-top: 63px;
+}
+header .offer {
+  margin-top: 140px;
+}
+header .offer .offer__title {
+  margin-bottom: 20px;
+}
+header .offer .offer__text {
+  margin-bottom: 60px;
+}
+header .offer .btn_text {
+  color: #fff;
+  opacity: 1;
+}
+header .offer .offer__img {
+  width: 658px;
+  height: 780px;
+  overflow: hidden;
+  margin-top: -88px;
+}
+header .video {
+  background: url("../img/Video.png");
+  width: 840px;
+  height: 750px;
+  display: block;
+  position: absolute;
+  margin-top: 96px;
+  margin-left: 196px;
+}
+/*Второй экран сайта*/
+.two__screen {
+  margin-top: 295px;
+}
+.two__screen .problem_img {
+  width: 444px;
+  height: 564px;
+  margin-right: 125px;
+  margin-bottom: 140px;
+}
+.two__screen .problem {
+  margin-bottom: 40px;
+}
+.two__screen .problem__text {
+  margin-bottom: 25px;
+}
+.two__screen .denis_img {
+  margin-top: 70px;
+}
+.two__screen .denis_title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 100px;
+  margin-top: -70px;
+}
+.two__screen .denis_text {
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: -30px;
+}
+/*Третий экран сайта*/
+.services {
+  margin-bottom: 110px;
+}
+.serv-list {
+  margin-left: 162px;
+}
+.serv-list_two {
+  margin-left: 400px;
+  margin-bottom: -117px;
+}
+.serv-list__item {
+  list-style: none;
+  font-size: 18px;
+  color: #222;
+  opacity: 0.5;
+}
+.services-carousel .owl-item {
+  width: 825px !important;
+  height: 500px;
+}
+.services-carousel .owl-nav {
+  text-align: left;
+  margin-top: 30px;
+}
+.services-carousel__play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: block;
+  background: url("../img/Play Button Primary.svg");
+  height: 65px;
+  width: 65px;
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+/*Четвертый экран сайта*/
+.result {
+  margin-top: 219px;
+  width: 570px;
+  height: 400px;
+  background: url(../img/img_7.jpg);
+}
+.collage img {
+  display: block;
+  position: absolute;
+  margin-left: 110px;
+  padding-top: 109px;
+}
+.easy {
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.easy .easy__title {
+  margin-bottom: 30px;
+}
+.easy .easy__icon {
+  margin-top: 65px;
+}
+.easy .easy__icon .easy__ultimate {
+  display: block;
+  margin-bottom: 30px;
+}
+.easy .easy__icon .ultimate__text {
+  display: inline-block;
+  margin-left: 30px;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.easy .easy__icon .easy__minimal {
+  display: block;
+}
+/*Пятый экран сайта*/
+.work {
+  margin-top: 350px;
+}
+.work .work__label {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.work .work__menu {
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.work .work_item {
+  list-style: none;
+  color: #222;
+  opacity: 0.5;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 30px;
+  cursor: pointer;
+  position: relative;
+}
+.work .work_item :hover {
+  color: #1434E1;
+}
+.work .work__gallery {
+  padding-top: 120px;
+}
+.work .work__img {
+  display: inline-block;
+  margin-right: 32px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.work .work__img :hover {
+  margin-top: -20px;
+}
+.work .work__img :hover :after {
+  background: url("../img/Play Button Primary.svg");
+  height: 65px;
+  width: 65px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+}
+.work .work__footer {
+  margin-top: 20px;
+}
+.work .work__footer .work__button {
+  margin-left: 140px;
+}
+/*Шестой экран сайта*/
+.testimonials {
+  margin-top: 260px;
+  margin-bottom: 80px;
+}
+.testimonials__title {
+  margin-top: 80px;
+  margin-bottom: 135px;
+}
+.testimonials__name {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 13px;
+  opacity: 1;
+}
+.testimonials__work {
+  font-size: 18px;
+}
+.testimonials__img {
+  height: 620px;
+  width: 445px;
+  margin-left: 95px;
+}
+/*Седьмой экран сайта*/
+.our-client__title {
+  margin-top: 100px;
+  margin-bottom: 140px;
+}
+.our-client__title h2 {
+  font-size: 40px;
+}
+.our-client__title h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
+.our-client__company {
+  margin-bottom: 135px;
+}
+.our-client__company .company__item1 {
+  margin-right: 180px;
+}
+.our-client__company .company__item2 {
+  margin-right: 200px;
+}
+.our-client__company .company__item3 {
+  margin-right: 200px;
+}
+.our-client__company .company__item4 {
+  margin-right: 150px;
+}
+.our-client__text {
+  margin-top: 110px;
+}
+/*Восьмой экран сайта*/
+footer {
+  background-color: #515151;
+  height: 240px;
+}
+footer .footer__img {
+  margin-top: 109px;
+  margin-left: 580px;
+}
